@@ -13,7 +13,7 @@ adres_cbos <- paste0("https://raw.githubusercontent.com/kflisikowsky/sad/",
 plik_cbos <- tempfile(fileext = ".sav")
 download.file(adres_cbos, plik_cbos, mode = "wb", quiet = TRUE)
 cbos_raw <- read_sav(plik_cbos)
-unlink(plik_cbos)
+unlink(plik_cbos) 
 
 cbos <- cbos_raw %>% transmute(
   plec = as_factor(plec),
