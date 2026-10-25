@@ -57,3 +57,5 @@ tab_miej %>% filter(grepl("500", miejscowosc))
 
 install.packages("usethis")
 
+#zadanie 6
+head(cbos)
