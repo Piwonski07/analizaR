@@ -1,0 +1,23 @@
+---
+title: "MP_wnioski"
+output: html_document
+---
+
+# Zadanie z nieruchomosciami
+
+```{r nieruchomosci-dane}
+library(dplyr)
+library(tidyr)
+
+adres_nieruchomosci <- paste0(
+  "https://raw.githubusercontent.com/kflisikowsky/pandas_exercises/",
+  "62863036107888c0c7273c40e8d309a43f4da3a9/data/models/real_estate.csv"
+)
+raw_nier <- read.csv(adres_nieruchomosci, check.names = FALSE)
+stopifnot(nrow(raw_nier) == 414, ncol(raw_nier) == 7)
+
+nier <- raw_nier
+names(nier) <- c("id", "wiek_lat", "metro_m", "sklepy", "lat", "lon",
+                 "cena_10k_twd_ping")
+head(nier)
+```
