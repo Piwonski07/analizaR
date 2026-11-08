@@ -14,5 +14,3 @@ dane%>%
     n_filmow=n()
   ) %>%
   arrange(decade_label)
-    
-#czy działa? 
