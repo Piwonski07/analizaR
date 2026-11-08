@@ -476,7 +476,7 @@ dane %>%
 
 ```{r 39, eval=FALSE}
 challenge5 <- source("./R/challenge5.R")
-challenge5
+challenge5$value
 ```
 
 
