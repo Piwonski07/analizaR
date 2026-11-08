@@ -15,4 +15,4 @@ dane%>%
   ) %>%
   arrange(decade_label)
     
-
+#czy działa? 
