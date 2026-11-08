@@ -420,7 +420,8 @@ dane %>%
 
 
 ```{r 34, eval=FALSE}
-# miejsce na kod
+challenge2 <- source("./R/challenge2.R")
+challenge2$value
 ```
 
 
@@ -429,7 +430,8 @@ dane %>%
 
 
 ```{r 35, eval=FALSE}
-# miejsce na kod
+challenge3 <- source("./R/challenge3.R")
+challenge3$value
 ```
 
 
@@ -437,7 +439,8 @@ dane %>%
 
 
 ```{r 36, eval=FALSE}
-# miejsce na kod
+challenge4 <- source("./R/challenge4.R")
+challenge4
 ```
 
 
@@ -472,7 +475,8 @@ dane %>%
 
 
 ```{r 39, eval=FALSE}
-# miejsce na kod
+challenge5 <- source("./R/challenge5.R")
+challenge5
 ```
 
 
