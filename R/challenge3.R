@@ -7,4 +7,4 @@ sredni_czas <- dane %>%
     )
   )
 
-glue("sredni czas wynosi {sredni_czas} dni.")
+glue("sredni czas wynosi {round(sredni_czas)} dni.")
