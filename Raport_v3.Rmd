@@ -240,7 +240,20 @@ dane %>%
     Release = Release.Date %>% as.Date(format = '%m/%d/%y')
     ,Netflix.Release = Netflix.Release.Date %>% as.Date(format = '%m/%d/%y')
   )
+
 ```
+
+```{r}
+
+dane <- dane %>%
+  mutate(
+      Release = Release.Date %>% as.Date(format = '%m/%d/%Y')
+    ,Netflix.Release = Netflix.Release.Date %>% as.Date(format = '%m/%d/%Y')
+  )
+
+```
+
+
 
 
 **CHALLENGE 1:** Jaki jest najstarszy film Woody'ego Allena dostępny na Netflixie?
